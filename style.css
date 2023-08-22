@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.banner{
+   
+    height: 25vh;
+    background-image: url(/checkpoint/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.titulo{
+    
+    background-color:CadetBlue ;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    
+}
+
+h1{
+    margin-right: 10px;
+
+}
+
+
+
+nav a{
+    text-decoration: none;
+    color: CadetBlue;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.fotoCiudad{
+    width: 18vw;
+    height: 15vh;
+    border-radius: 10px;
+}
+
+.descuentos{
+    justify-content: center;
+    margin: 1rem;
+
+}
+
+.descuentos h2{
+    background-color: CadetBlue;
+    color: white;
+    text-align: center;
+}
+
+
+.opciones{
+    width:20vw;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    background-color: CadetBlue ;
+    border-radius: 10px;
+    color: white;
+}
+
+.opciones2{
+    width:20vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    background-color: CadetBlue ;
+    border-radius: 10px;
+    color: white;
+}
+
+
+
+.opciones h3{
+    margin-bottom: 10px;
+}
+
+.opciones p{
+    margin-top: 10px;
+}
+
+table, th, td{
+    margin-top: 20px;
+    text-align: center;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+    background-color:CadetBlue ;
+    color: white;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+/*mediaqueres*/
+@media screen and (max-width:1024px) { 
+    
+}
+@media screen and (max-width: 768px ){
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .opciones{
+        width: 40vw;
+    }
+
+    .opciones2{
+        
+        width: 40vw;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+    .opciones{
+        width: 60vw;
+    }
+
+    .opciones2{
+        width: 80vw;
+    }
+    
+    .fotoCiudad{
+        width: 45vw;
+        height: 12vh;
+    }
+
+    table,tr, td{
+        padding: 5px;
+        
+        border-radius: 5px;
+    }
+    .titulo{
+        background-color: transparent;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer{
+        height: 20vh;
+
+    }
+
+    fieldset{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
